@@ -38,3 +38,14 @@ php artisan rabbitmq:consume
 ```console
 php artisan run:job
 ```
+
+#### Min message struct from other producer
+
+```console
+{
+"uuid":"c38abfa9-ccd7-4e55-82bc-f062c06e44fc",
+"displayName":"App\\Jobs\\RabbitMQTest",
+"job":"Illuminate\\Queue\\CallQueuedHandler@call",
+"data":"dsdsd"
+}
+```

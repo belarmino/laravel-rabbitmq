@@ -7,12 +7,12 @@ https://www.cloudamqp.com/
 #### config params
 
 ```console
-QUEUE_CONNECTION=rabbitmq\
-RABBITMQ_HOST=woodpecker.rmq.cloudamqp.com\
-RABBITMQ_PORT=5672\
-RABBITMQ_USER=[YOUR_USER]\
-RABBITMQ_PASSWORD=[YOUR_PASSWORD]\
-RABBITMQ_VHOST=[YOUR_VHOST]\
+QUEUE_CONNECTION=rabbitmq
+RABBITMQ_HOST=woodpecker.rmq.cloudamqp.com
+RABBITMQ_PORT=5672
+RABBITMQ_USER=[YOUR_USER]
+RABBITMQ_PASSWORD=[YOUR_PASSWORD]
+RABBITMQ_VHOST=[YOUR_VHOST]
 ```
 
 #### To run command as consumer

@@ -6,8 +6,6 @@
 composer require vladimir-yuldashev/laravel-queue-rabbitmq
 ```
 
-php artisan make:job PingJob
-
 How to create a instance of RabbitMQ in cloud
 
 https://www.cloudamqp.com/
@@ -25,7 +23,9 @@ RABBITMQ_VHOST=[YOUR_VHOST]
 
 #### Steps-by-steps
 
+```console
 php artisan make:job RabbitMQTest
+```
 
 #### To run command as consumer
 
